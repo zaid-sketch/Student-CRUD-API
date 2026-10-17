@@ -214,6 +214,23 @@ The application uses SQLite to store student records locally in `students.db`.
 The database file is excluded from Git version control.
 
 
+## Project Screenshots
+
+### 1. GitHub Actions - CI Pipeline
+Automated API tests executed successfully using GitHub Actions.
+
+![GitHub Actions](screenshots/github_actions.png)
+
+### 2. Create Student - POST API
+Successfully created a student record with HTTP 201 Created.
+
+![Create Student](screenshots/create_student.png)
+
+### 3. Retrieve Student - GET API
+Successfully retrieved a student record using its ID with HTTP 200 OK.
+
+![Get Student](screenshots/get_student.png)
+
 
 \## Author
 
