@@ -1,3 +1,6 @@
+
+[![Student CRUD API Tests](https://github.com/zaid-sketch/Student-CRUD-API/actions/workflows/tests.yml/badge.svg)](https://github.com/zaid-sketch/Student-CRUD-API/actions/workflows/tests.yml)
+
 \# Student CRUD API
 
 
