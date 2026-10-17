@@ -4,8 +4,9 @@ import sqlite3
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, EmailStr, field_validator, model_validator
 
-DATABASE = "students.db"
+import os
 
+DATABASE = os.getenv("STUDENT_DATABASE", "students.db")
 app = FastAPI(title="Student CRUD API")
 
 
