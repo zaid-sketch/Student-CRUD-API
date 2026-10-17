@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database
+students.db
+*.db
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
